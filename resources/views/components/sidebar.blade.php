@@ -150,7 +150,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link active">
+                                <a href="{{route('design_all')}}" class="nav-link active">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>デザイン一覧</p>
                                 </a>
@@ -164,7 +164,25 @@
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
+                                    <p>名刺作成</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>作成サイト</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
                                     <p>請求ページ</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{route('show',['id' => Auth::id()])}}" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>紹介ページ</p>
                                 </a>
                             </li>
                               <li class="nav-item">
